@@ -1,16 +1,20 @@
-list1 = [3, 6, 9, 12, 15, 18, 21]
-list2 = [4, 8, 12, 16, 20, 24, 28]
-res = list()
+#Given two lists, l1 and l2, write a program to create
+#a third list l3 by picking an odd-index element from the 
+#list l1 and even index elements from the list l2.
 
-odd_elements = list1[1::2]
+LIST_1 = [3, 6, 9, 12, 15, 18, 21]
+LIST_2 = [4, 8, 12, 16, 20, 24, 28]
+FINAL_LIST = list()
+
+ODD_ELEMENTS = LIST_1[1::2]
 print("Element at odd-index positions from list one")
-print(odd_elements)
+print(ODD_ELEMENTS)
 
-even_elements = list2[0::2]
+EVEN_ELEMENTS = LIST_2[0::2]
 print("Element at even-index positions from list two")
-print(even_elements)
+print(EVEN_ELEMENTS)
 
 print("Printing Final third list")
-res.extend(odd_elements)
-res.extend(even_elements)
-print(res)
+FINAL_LIST.extend(ODD_ELEMENTS)
+FINAL_LIST.extend(EVEN_ELEMENTS)
+print(FINAL_LIST)
