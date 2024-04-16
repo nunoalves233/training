@@ -1,5 +1,6 @@
-def HelloWorld(str){
-    print(str);
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello World!");
 }
-HelloWorld("print")
-    
