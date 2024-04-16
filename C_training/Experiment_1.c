@@ -2,5 +2,5 @@
 
 int main()
 {
-    printf("Hello World!");
+    printf("Hello World! My name is Nuno and I finally got C to work on windows :)");
 }
